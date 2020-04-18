@@ -1,22 +1,22 @@
 ### Site info:
 title: Evgeny Stepankevich
-tagline: Data Scientist 
+tagline: Human
 author: Evgeny Stepankevich
-email: yu@lijiayu.net
-description: "Data Scientist and Athlete exploring the world" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+email: 
+description: "Human exploring the world" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Data Science, Mathematics"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://yulijia.net/" # the base hostname & protocol for your site
+url: "https://stepankevich.xyz/" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: yulijia
+twitter_username: 
 github_username:  estepankevich
 disqus_shortname: estepankevich
 favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
-aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg# your photo.
-google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
+aboutme: Hi, this site is under construction, I've just started :) # these are shown on aboutme-sidebar.
+aboutme_photo: /images/me.png # your photo.
+google_analytics_key:  # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
@@ -173,12 +173,12 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-      - name: Freshman
-        href: http://yulijia.net/
+      - name: Evgeny Stepankevich
+        href: https://stepankevich.xyz/
         title: Another Jekyll blog theme
-      - name: author's website
-        href: http://yulijia.net/
-        title: Lijia Yu's website
+      # - name: author's website
+        # href: http://yulijia.net/
+        # title: Lijia Yu's website
 
 
 ### Build settings
