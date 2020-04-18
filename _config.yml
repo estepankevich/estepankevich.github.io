@@ -5,7 +5,7 @@ author: Evgeny Stepankevich
 email: yu@lijiayu.net
 description: "Data Scientist and Athlete exploring the world" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Data Science, Mathematics"
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://yulijia.net/freshman21" # the base hostname & protocol for your site
 locale: en_US
 
