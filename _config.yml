@@ -6,13 +6,13 @@ email: yu@lijiayu.net
 description: "Data Scientist and Athlete exploring the world" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Data Science, Mathematics"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://yulijia.net/freshman21" # the base hostname & protocol for your site
+url: "https://yulijia.net/" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
 twitter_username: yulijia
 github_username:  estepankevich
-disqus_shortname: freshman21
+disqus_shortname: estepankevich
 favicon:     "/images/favicon.ico"
 aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
 aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg# your photo.
@@ -174,7 +174,7 @@ locales:
 
 Blogroll:
       - name: Freshman
-        href: http://yulijia.net/freshman
+        href: http://yulijia.net/
         title: Another Jekyll blog theme
       - name: author's website
         href: http://yulijia.net/
