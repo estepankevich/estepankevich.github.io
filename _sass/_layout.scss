@@ -9,11 +9,12 @@
 }
 
 .site-title {
-  font-size: 48px;
+  font-size: 42px;
   line-height: 56px;
+  font-weight: 800;
   letter-spacing: -1px;
   margin-bottom: 0;
-  text-align:center;
+  float: left;
   a{
     &,
     &:visited
@@ -25,17 +26,9 @@
   }
 }
 
-.site-meta{
-  font-size: 20px;
-  line-height:56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  text-align:center; 
-  color: $grey-color;
-}
 
 .site-nav {
-  /*float: right;*/
+  float: right;
   line-height: 56px;
   border-top: 1px solid $grey-color-light;
   border-bottom: 1px solid $grey-color-light;
@@ -113,7 +106,6 @@
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
-  font-size: 14px;
   h4{
     font-size: $base-font-size;
     font-weight: bold;

@@ -10,11 +10,15 @@ url: "https://stepankevich.xyz/" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
-twitter_username: 
-github_username:  estepankevich
+instagram_username: estepankevich2 
+github_username: estepankevich
+linkedin_username: estepankevich
+facebook_username: estepankevich
+telegram_username: estepankevich
+medium_username: estepankevich
 disqus_shortname: estepankevich
-favicon:     "/images/favicon.ico"
-aboutme: Hi, this site is under construction, I've just started :) # these are shown on aboutme-sidebar.
+favicon: "/images/me.png"
+aboutme: Data scientist, Engineer, Athlete # these are shown on aboutme-sidebar.
 aboutme_photo: /images/me.png # your photo.
 google_analytics_key:  # put YOUR key here to enable tracking! (blank to disable)
 
@@ -27,6 +31,7 @@ default_locale: "en" # blog sidebar language set, only include: English (en), Ch
 locales:
     en:
       Aboutme: "About Me"
+      Blog: "Blog"
       Archives: "Archives"
       Blogroll: "Blogroll"
       Categories: "Categories"

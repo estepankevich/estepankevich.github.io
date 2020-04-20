@@ -5,19 +5,25 @@
   <br />
 
   {% if site.ShowContactInfo == "True" %}
-
-  You can contact me via:
-
-  {% if site.email != empty %}
-  <a href="mailto:{{site.email}}" title="mailto: {{site.email}}">Email</a> /
+	
+  {% if site.linkedin_username != empty %}
+  <a href="https://linkedin.com/in/{{site.linkedin_username}}" title="LinkeidinID: {{site.linkedin_username}}"><i class="fab fa-linkedin"></i></a>
   {% endif %}
   {% if site.github_username != empty %}
-  <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}">Github</a> /
+  <a href="https://github.com/{{site.github_username}}" title="GithubID: {{site.github_username}}"><i class="fab fa-github-square"></i></a>
   {% endif %}
-  {% if site.twitter_username != empty %}
-  <a href="https://twitter.com/{{site.twitter_username}}" title="TwitterID: {{site.twitter_username}}">Twitter</a>
+  {% if site.medium_username != empty %}
+  <a href="https://medium.com/@{{site.medium_username}}" title="MediumID: {{site.medium_username}}"><i class="fab fa-medium"></i></a>
   {% endif %}
-
+  {% if site.facebook_username != empty %}
+  <a href="https://facebook.com/{{site.facebook_username}}" title="FacebookID: {{site.facebook_username}}"><i class="fab fa-facebook-square"></i></a>
+  {% endif %}
+  {% if site.instagram_username != empty %}
+  <a href="https://instagram.com/{{site.instagram_username}}" title="InstagramID: {{site.instagram_username}}"><i class="fab fa-instagram-square"></i></a>
+  {% endif %}
+  {% if site.telegram_username != empty %}
+  <a href="https://t.me/{{site.telegram_username}}" title="TelegramID: {{site.telegram_username}}"><i class="fab fa-telegram"></i></a>
+  {% endif %}
   {% endif %}
 
 </div>
