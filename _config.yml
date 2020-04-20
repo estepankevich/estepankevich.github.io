@@ -34,7 +34,8 @@ sass:
 locales:
     en:
       Aboutme: "About Me"
-      Blog: "Blog"
+      Tech_Blog: "Tech Blog"
+      Lifestyle_Blog: "Lifestyle Blog in Russian"
       Archives: "Archives"
       Blogroll: "Blogroll"
       Categories: "Categories"
@@ -177,17 +178,6 @@ locales:
       About: "Tentang"
       Guestbook: "Buku tamu"
       Subscribe: "Langganan"
-
-### your Blogroll info, only name can shown on the page.
-
-Blogroll:
-      - name: Evgeny Stepankevich
-        href: https://stepankevich.xyz/
-        title: Another Jekyll blog theme
-      # - name: author's website
-        # href: http://yulijia.net/
-        # title: Lijia Yu's website
-
 
 ### Build settings
 markdown: kramdown

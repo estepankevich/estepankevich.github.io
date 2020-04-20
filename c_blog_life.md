@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Tech_Blog
-permalink: /blog/
+title: Lifestyle_Blog
+permalink: /lifestyle-blog/
 main_menu: yes
 ---
 
