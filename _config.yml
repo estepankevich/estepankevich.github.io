@@ -8,7 +8,11 @@ keywords: "Data Science, Mathematics"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://stepankevich.xyz/" # the base hostname & protocol for your site
 locale: en_US
-
+languages: ["en", "ru"]
+defaultLang: en
+languageNames:
+  ru: Deutsch
+  en: English
 ### Personal info and site tools info:
 instagram_username: estepankevich2 
 github_username: estepankevich
@@ -185,6 +189,6 @@ markdown: kramdown
 kramdown:
         input: GFM
         syntax_highlighter: rouge
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-multiple-languages-plugin]
 paginate: 5
 excerpt_separator: <!-- more -->
